@@ -13,8 +13,8 @@ spec:
         app: WeatherForecastSG
     spec:
       containers:
-      - name: thridcrsg
-        image: thridcrsg.azurecr.io/productrepos:latest
+      - name: kuberneteslabex
+        image: kuberneteslabex.azurecr.io/productrepos:latest
         ports:
         - containerPort: 8080
       imagePullSecrets:
